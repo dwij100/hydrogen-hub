@@ -1,0 +1,63 @@
+name: ${COMPOSE_PROJECT_NAME:-hydrogen-hub}
+
+x-backend-common: &backend-common
+  build:
+    context: .
+    dockerfile: backend/Dockerfile
+  environment:
+    LOCAL_SINGLE_USER_MODE: "true"
+    DATA_DIR: /data
+    SOLVER_DIR: /srv/hydrogen/backend/solver
+    SOLVER_NAME: gurobi
+    GUROBI_LICENSE_FILE: /run/secrets/gurobi.lic
+    SOLVE_TIMEOUT_SECONDS: ${SOLVE_TIMEOUT_SECONDS:-21600}
+    CANCELLATION_GRACE_SECONDS: 15
+    WORKER_STALE_SECONDS: 20
+  volumes:
+    - hydrogen_data:/data
+    - ./secrets/gurobi.lic:/run/secrets/gurobi.lic:ro
+  restart: unless-stopped
+
+services:
+  backend:
+    <<: *backend-common
+    command: ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/readyz', timeout=3).status==200 else 1)"]
+      interval: 10s
+      timeout: 5s
+      start_period: 30s
+      retries: 8
+
+  worker:
+    <<: *backend-common
+    command: ["python", "-m", "backend.app.worker"]
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-m", "backend.app.worker_health"]
+      interval: 10s
+      timeout: 5s
+      start_period: 20s
+      retries: 5
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend.Dockerfile
+      args:
+        VITE_LOCAL_MODE: "true"
+        VITE_SOLVER_API_URL: ""
+    ports:
+      - "127.0.0.1:${HYDROGEN_HUB_PORT:-8080}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+      worker:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  hydrogen_data:
+    name: ${COMPOSE_PROJECT_NAME:-hydrogen-hub}_data

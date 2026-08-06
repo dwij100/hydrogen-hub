@@ -1,0 +1,27 @@
+# Deployment requirements for the Hydrogen Hub solver backend (Python 3.11).
+#
+# The mathematical solver is an audited local revision. Its original archival
+# pin list remains next to it in
+# backend/solver/requirements.original.txt. The pins below keep those exact
+# versions and add the API/worker stack around them.
+
+# --- solver stack (pins taken from the supplied requirements.txt) ---
+# IBM CPLEX is not imported or required; production solving uses Gurobi only.
+matplotlib==3.10.9
+pandas==3.0.2
+pyomo==6.10.0
+numpy==2.3.5
+
+# --- production MILP backend ---
+# A full user-supplied licence is mounted at runtime; no licence is embedded.
+gurobipy==12.0.3
+
+# --- API / worker stack ---
+fastapi==0.118.0
+uvicorn[standard]==0.37.0
+pydantic==2.11.9
+python-multipart==0.0.20
+
+# --- tests ---
+pytest==8.4.2
+httpx==0.28.1

@@ -1,0 +1,152 @@
+{
+  "projectLifetime": {
+    "value": 20,
+    "unit": "yr"
+  },
+  "hydrogenPrice": {
+    "value": 3,
+    "unit": "USD/kg"
+  },
+  "pipelines": {
+    "pomeCapitalCost": {
+      "value": 19285.6,
+      "unit": "USD/km"
+    },
+    "gasCapitalCost": {
+      "value": 65940,
+      "unit": "USD/km"
+    }
+  },
+  "palmOilMill": {
+    "pomeToGasConversion": {
+      "value": 0.03242,
+      "unit": "t BG/t POME"
+    },
+    "anaerobicDigestionOpCost": {
+      "value": 0.09,
+      "unit": "USD/t POME/d"
+    },
+    "truckTransportOpCost": {
+      "value": 0.07,
+      "unit": "USD/t.km"
+    },
+    "trainTransportOpCost": {
+      "value": 0.035,
+      "unit": "USD/t.km"
+    }
+  },
+  "wastewaterTreatmentPlant": {
+    "pomeToHydrogenConversion": {
+      "value": 0.000511,
+      "unit": "t H2/t POME"
+    },
+    "darkPhotoCapitalCost": {
+      "value": 344.2,
+      "unit": "USD/t POME/d"
+    },
+    "darkPhotoOpCost": {
+      "value": 2.18,
+      "unit": "USD/t POME"
+    }
+  },
+  "biogasSteamReformingPlant": {
+    "biogasToHydrogenConversion": {
+      "value": 0.12776,
+      "unit": "t H2/t BG"
+    },
+    "capitalCost": {
+      "value": 225460,
+      "unit": "USD/t H2/d"
+    },
+    "opCostPercentage": {
+      "value": 5,
+      "unit": "% of CAPEX"
+    }
+  },
+  "biomassHydrogenHub": {
+    "biomassGasificationConversion": {
+      "value": 0.03,
+      "unit": "t H2/t"
+    },
+    "biomassGasificationCapitalCost": {
+      "value": 537919,
+      "unit": "USD/t/d"
+    },
+    "biomassGasificationOpCost": {
+      "value": 5,
+      "unit": "% of CAPEX"
+    },
+    "psaCapitalCost": {
+      "value": 317460,
+      "unit": "USD/t H2"
+    },
+    "psaOpCost": {
+      "value": 597,
+      "unit": "USD/t H2"
+    },
+    "psaRecovery": {
+      "value": 90,
+      "unit": "%"
+    },
+    "purifiedHydrogenPurity": {
+      "value": 99.99,
+      "unit": "%"
+    }
+  },
+  "solarWaterElectrolysis": {
+    "solarPanelEfficiency": {
+      "value": 15.6,
+      "unit": "%"
+    },
+    "solarPanelPerformanceRatio": {
+      "value": 75,
+      "unit": "%"
+    },
+    "solarPanelCapitalCost": {
+      "value": 200,
+      "unit": "USD/m2"
+    },
+    "waterElectrolysisConversion": {
+      "value": 0.0000375,
+      "unit": "t H2/kWh"
+    },
+    "electrolyserCapitalCost": {
+      "value": 400,
+      "unit": "USD/kW"
+    },
+    "electrolyserOpCost": {
+      "value": 5,
+      "unit": "% of CAPEX"
+    }
+  },
+  "hydrogenStorage": {
+    "gaseous": {
+      "capitalCost": {
+        "value": 700000,
+        "unit": "USD/t H2"
+      },
+      "opCost": {
+        "value": 1400,
+        "unit": "USD/t H2"
+      },
+      "electricityConsumption": {
+        "value": 4.5,
+        "unit": "kWh/kg H2"
+      }
+    },
+    "liquid": {
+      "capitalCost": {
+        "value": 1905000,
+        "unit": "USD/t H2"
+      },
+      "opCost": {
+        "value": 18700,
+        "unit": "USD/t H2"
+      },
+      "electricityConsumption": {
+        "value": 12.5,
+        "unit": "kWh/kg H2"
+      }
+    }
+  }
+}

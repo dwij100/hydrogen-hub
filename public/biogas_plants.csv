@@ -1,0 +1,3 @@
+InfrastructureID,AssetType,State,LocationName,Address,Latitude,Longitude,Capacity,CapacityUnit,StorageType,Notes
+INF-BSP-001,biogas_steam_plant,Johor,Tanjung Langsat,Tanjung Langsat Johor,1.461123,103.984342,2600,t BG,,Min: 100 t BG
+INF-BSP-002,biogas_steam_plant,Johor,Sedenak,Sedenak Biogas Plant Johor,1.729157,103.540849,2200,t BG,,Min: 100 t BG

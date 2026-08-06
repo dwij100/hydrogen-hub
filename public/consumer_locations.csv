@@ -1,0 +1,4 @@
+ConsumerLocationID,State,LocationName,Address,Latitude,Longitude,Notes,ProductionCapacity,HydrogenDemand
+CON-HC-001,Johor,Ammonia Plant,Ammonia Plant Johor,1.445004,103.89427,Production: 630000 t/yr,630000,314.96
+CON-HC-002,Johor,Biofuel refinery plant,Biofuel Refinery Johor,1.358725,104.170659,Production: 730000 t/yr,730000,28.5
+CON-HC-003,Johor,Steelmaking plant,Steelmaking Plant Johor,1.451512,103.917306,Production: 1050000 t/yr,1050000,172.6

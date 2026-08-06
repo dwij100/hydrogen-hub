@@ -1,0 +1,5 @@
+InfrastructureID,AssetType,State,LocationName,Address,Latitude,Longitude,Capacity,CapacityUnit,StorageType,Notes
+INF-SF-001,solar_farm,Johor,Kluang Solar Farm,Kluang Solar Farm Johor,2.013389,103.264091,5,km2,,
+INF-SF-002,solar_farm,Johor,Mersing Solar Farm,Mersing Solar Farm Johor,2.378256,103.851583,5,km2,,
+INF-SF-003,solar_farm,Johor,Rimba Terjun Solar Farm,Rimba Terjun Solar Farm Johor,1.473012,103.393043,5,km2,,
+INF-SF-004,solar_farm,Johor,ZEC Solar Farm,ZEC Solar Farm Johor,1.67124,103.739828,5,km2,,

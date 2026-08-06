@@ -1,0 +1,35 @@
+InfrastructureID,AssetType,State,LocationName,Address,Latitude,Longitude,Capacity,CapacityUnit,StorageType,Notes
+INF-POM-001,palm_oil_mill,Johor,Bell Palm Industries,Bell Palm Industries Johor,1.916778,102.89175,321.19,t/d,,POME: 820.08 t/d
+INF-POM-002,palm_oil_mill,Johor,Bukit Benut (SOU 22),Bukit Benut Johor,1.931143,103.347365,57.55,t/d,,POME: 308.74 t/d
+INF-POM-003,palm_oil_mill,Johor,Bukit Pasir,Bukit Pasir Johor,2.085126,102.697623,267.54,t/d,,POME: 926.21 t/d
+INF-POM-004,palm_oil_mill,Johor,Chaah (SOU 20),Chaah Johor,2.148725,102.973994,210.08,t/d,,POME: 438.98 t/d
+INF-POM-005,palm_oil_mill,Johor,Coronation,Coronation Johor,2.022778,103.267194,548.9,t/d,,POME: 1698.05 t/d
+INF-POM-006,palm_oil_mill,Johor,Felcra Bukit Kepong,Felcra Bukit Kepong Johor,2.390676,102.881994,231.71,t/d,,POME: 630.34 t/d
+INF-POM-007,palm_oil_mill,Johor,Genting Ayer Item,Genting Ayer Item Johor,1.856092,103.209291,563.66,t/d,,POME: 839.38 t/d
+INF-POM-008,palm_oil_mill,Johor,Gomali,Gomali Johor,2.611826,102.678656,535.71,t/d,,POME: 1852.42 t/d
+INF-POM-009,palm_oil_mill,Johor,Gunung Mas (SOU 21),Gunung Mas Johor,2.243544,103.137941,527.98,t/d,,POME: 839.38 t/d
+INF-POM-010,palm_oil_mill,Johor,Jernih Kemboja,Jernih Kemboja Johor,2.488822,102.936831,31.39,t/d,,POME: 926.21 t/d
+INF-POM-011,palm_oil_mill,Johor,Johor Labis,Johor Labis Johor,2.251472,103.051306,359.31,t/d,,POME: 771.84 t/d
+INF-POM-012,palm_oil_mill,Johor,Kahang,Kahang Johor,2.342278,103.4384,357.78,t/d,,POME: 617.47 t/d
+INF-POM-013,palm_oil_mill,Johor,Kekayaan,Kekayaan Johor,2.204546,103.270394,24.68,t/d,,POME: 1755.94 t/d
+INF-POM-014,palm_oil_mill,Johor,Lenga Palmoil,Lenga Palmoil Johor,2.226357,102.569333,299.41,t/d,,POME: 926.21 t/d
+INF-POM-015,palm_oil_mill,Johor,Milik Mestika,Milik Mestika Johor,2.401573,102.667208,577.01,t/d,,POME: 897.26 t/d
+INF-POM-016,palm_oil_mill,Johor,Pagoh (SOU 19),Pagoh Johor,2.077424,102.718519,316.36,t/d,,POME: 658.48 t/d
+INF-POM-017,palm_oil_mill,Johor,Palm Discovery/Lulai Mas,Palm Discovery Johor,1.802372,103.623894,133.37,t/d,,POME: 964.8 t/d
+INF-POM-018,palm_oil_mill,Johor,Palong Cocoa,Palong Cocoa Johor,2.7064,102.785012,282.5,t/d,,POME: 514.56 t/d
+INF-POM-019,palm_oil_mill,Johor,Pamol Kluang,Pamol Kluang Johor,2.110445,103.392307,203.11,t/d,,POME: 597.74 t/d
+INF-POM-020,palm_oil_mill,Johor,Pasir Panjang,Pasir Panjang Johor,2.01801,103.948577,64.78,t/d,,POME: 945.5 t/d
+INF-POM-021,palm_oil_mill,Johor,PPNJ Bukit Bujang,PPNJ Bukit Bujang Johor,2.799894,102.758411,57.67,t/d,,POME: 849.02 t/d
+INF-POM-022,palm_oil_mill,Johor,PPNJ Kahang,PPNJ Kahang Johor,2.1714,103.4796,428.37,t/d,,POME: 849.02 t/d
+INF-POM-023,palm_oil_mill,Johor,Risda Sg Ambat,Risda Sg Ambat Johor,2.194746,103.87798,224.23,t/d,,POME: 945.5 t/d
+INF-POM-024,palm_oil_mill,Johor,Sedenak,Sedenak Johor,1.730858,103.538323,547.93,t/d,,POME: 1360.37 t/d
+INF-POM-025,palm_oil_mill,Johor,Sindora,Sindora Johor,1.985372,103.46231,47.68,t/d,,POME: 578.88 t/d
+INF-POM-026,palm_oil_mill,Johor,Southern Malay,Southern Malay Johor,1.791003,103.362557,200.68,t/d,,POME: 868.32 t/d
+INF-POM-027,palm_oil_mill,Johor,Sungkit Enterprises,Sungkit Enterprises Johor,1.776651,103.92027,9.47,t/d,,POME: 839.38 t/d
+INF-POM-028,palm_oil_mill,Johor,Tai Tek,Tai Tek Johor,1.693889,103.858611,54.09,t/d,,POME: 877.97 t/d
+INF-POM-029,palm_oil_mill,Johor,Telok Sengat,Telok Sengat Johor,1.566934,104.044935,59.17,t/d,,POME: 514.56 t/d
+INF-POM-030,palm_oil_mill,Johor,Tereh,Tereh Johor,2.217023,103.352357,451.89,t/d,,POME: 964.8 t/d
+INF-POM-031,palm_oil_mill,Johor,Tunjuk Laut,Tunjuk Laut Johor,1.9737,103.979,443.22,t/d,,POME: 955.15 t/d
+INF-POM-032,palm_oil_mill,Johor,Ulu Remis (SOU 23),Ulu Remis Johor,1.834444,103.4625,503.11,t/d,,POME: 791.14 t/d
+INF-POM-033,palm_oil_mill,Johor,Ulu Sebol,Ulu Sebol Johor,1.888611,103.621833,3.95,t/d,,POME: 810.43 t/d
+INF-POM-034,palm_oil_mill,Johor,United Bell,United Bell Johor,1.565451,103.467984,728.09,t/d,,POME: 1608 t/d

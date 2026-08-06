@@ -1,0 +1,6 @@
+InfrastructureID,AssetType,State,LocationName,Address,Latitude,Longitude,Capacity,CapacityUnit,StorageType,Notes
+INF-WWTP-001,wastewater_plant,Johor,Sungai Johor WWTP,Sungai Johor WWTP Johor,1.722594,103.831151,5300,t POME,,Min: 200 t POME
+INF-WWTP-002,wastewater_plant,Johor,Simpang Renggam WWTP,Simpang Renggam WWTP Johor,1.827112,103.300815,7600,t POME,,Min: 200 t POME
+INF-WWTP-003,wastewater_plant,Johor,Sungai Sayong WWTP,Sungai Sayong WWTP Johor,1.803152,103.668773,9000,t POME,,Min: 200 t POME
+INF-WWTP-004,wastewater_plant,Johor,Semangar WWTP,Semangar WWTP Johor,1.737137,103.78763,7800,t POME,,Min: 200 t POME
+INF-WWTP-005,wastewater_plant,Johor,Sri Gading WWTP,Sri Gading WWTP Johor,1.857592,102.991891,8000,t POME,,Min: 200 t POME

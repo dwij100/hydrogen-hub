@@ -1,0 +1,4 @@
+InfrastructureID,AssetType,State,LocationName,Address,Latitude,Longitude,Capacity,CapacityUnit,StorageType,Notes
+INF-BHH-001,biomass_h2_hub,Johor,Pagoh,Pagoh Biomass H2 Hub Johor,2.144981,102.778081,4000,t BM,,Min: 100 t BM
+INF-BHH-002,biomass_h2_hub,Johor,Machap,Machap Biomass H2 Hub Johor,1.80875,103.220751,3000,t BM,,Min: 100 t BM
+INF-BHH-003,biomass_h2_hub,Johor,Skudai,Skudai Biomass H2 Hub Johor,1.535892,103.650844,3200,t BM,,Min: 100 t BM

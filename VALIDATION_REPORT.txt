@@ -1,0 +1,31 @@
+Hydrogen Hub v6.2 validation
+============================
+
+Completed in the build workspace:
+- Python source compilation: passed
+- Backend regression suite: 35 passed, 1 skipped
+- The skipped model-build test runs in the production Docker image where Pyomo is installed
+- Frontend TypeScript/TSX syntax transpilation: passed
+- Isolated TypeScript type check of the changed plotting component: passed
+- Protected solver/data SHA-256 manifest: all 29 entries passed
+- Full 1-24 hour-axis validation against the supplied completed result: passed
+- Stacked-bar axis regression: uses hourly stack totals, not individual segments
+- Binary-state display regression: uses a 24-hour activity matrix
+- External series-control regression: passed
+- No gurobi.lic file or licence credentials are included
+
+Display corrections in v6.2:
+- bars are centred on complete hourly bins;
+- stacked bars cannot be clipped by an individual-series y-axis calculation;
+- legends no longer overlap the plot or x-axis title;
+- crowded line series can be hidden and use distinct dash patterns;
+- binary state series no longer overlap as lines;
+- sparse bar tooltips suppress restored zeros and show only real activity.
+
+A complete npm dependency installation could not be repeated in this build
+workspace because the internal npm mirror returned HTTP 404 for registry
+packages. The Windows setup builds, type-checks, lints, tests, and bundles the
+frontend inside Docker and remains the authoritative environment-specific gate.
+
+The final licensed Gurobi smoke solve must run on the user's machine because the
+private Gurobi licence is intentionally excluded from this package.

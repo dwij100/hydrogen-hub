@@ -1,0 +1,76 @@
+Location,Dock Cap E,Dock Cap H,Location Bus,Vehicle,Vehicle Type,Initial Loc,,Shift,Shift Start,Shift End,Shift LOC,Shift Distance
+Johor Bahru,10,3,B3,BEV1,BEV,Johor Bahru,,S1,6,7,Johor Bahru,18
+Kota Tinggi,10,3,B40,BEV2,BEV,Johor Bahru,,S2,6,8,Johor Bahru,20
+Pontian District,10,0,B71,BEV3,BEV,Johor Bahru,,S3,6,9,Johor Bahru,22
+Mersing,10,3,B55,BEV4,BEV,Johor Bahru,,S4,7,8,Johor Bahru,24
+Kluang,10,0,B82,BEV5,BEV,Johor Bahru,,S5,7,9,Kota Tinggi,35
+Kulai,10,0,B47,BEV6,BEV,Kota Tinggi,,S6,7,10,Kota Tinggi,37
+Batu Pahat,10,3,B93,BEV7,BEV,Kota Tinggi,,S7,8,9,Kota Tinggi,39
+Tangkak,10,0,B111,BEV8,BEV,Kota Tinggi,,S8,8,10,Kota Tinggi,41
+Segamat District,10,0,B90,BEV9,BEV,Kota Tinggi,,S9,8,11,Pontian District,53
+Skudai,10,0,B66,BEV10,BEV,Kota Tinggi,,S10,9,10,Pontian District,55
+Pasir Gudang,10,0,B11,BEV11,BEV,Pontian District,,S11,9,11,Pontian District,57
+Iskander Puteri,10,0,B31,BEV12,BEV,Pontian District,,S12,9,12,Pontian District,59
+Muar,10,3,B109,BEV13,BEV,Pontian District,,S13,10,11,Mersing,18
+,,,,BEV14,BEV,Mersing,,S14,10,12,Mersing,20
+,,,,BEV15,BEV,Mersing,,S15,10,13,Mersing,22
+,,,,BEV16,BEV,Mersing,,S16,11,12,Mersing,24
+,,,,BEV17,BEV,Mersing,,S17,11,13,Kluang,35
+,,,,BEV18,BEV,Mersing,,S18,11,14,Kluang,37
+,,,,BEV19,BEV,Kluang,,S19,12,13,Kluang,39
+,,,,BEV20,BEV,Kluang,,S20,12,14,Kulai,41
+,,,,BEV21,BEV,Kluang,,S21,12,15,Kulai,53
+,,,,BEV22,BEV,Kluang,,S22,13,14,Batu Pahat,55
+,,,,BEV23,BEV,Kulai,,S23,13,15,Batu Pahat,57
+,,,,BEV24,BEV,Kulai,,S24,13,16,Batu Pahat,59
+,,,,BEV25,BEV,Kulai,,S25,14,15,Batu Pahat,18
+,,,,BEV26,BEV,Kulai,,S26,14,16,Tangkak,20
+,,,,BEV27,BEV,Batu Pahat,,S27,14,17,Tangkak,22
+,,,,BEV28,BEV,Batu Pahat,,S28,15,16,Pasir Gudang,24
+,,,,BEV29,BEV,Batu Pahat,,S29,15,17,Pasir Gudang,35
+,,,,BEV30,BEV,Batu Pahat,,S30,15,18,Pasir Gudang,37
+,,,,FCEV1,FCEV,Batu Pahat,,,,,,
+,,,,FCEV2,FCEV,Tangkak,,,,,,
+,,,,FCEV3,FCEV,Tangkak,,,,,,
+,,,,FCEV4,FCEV,Tangkak,,,,,,
+,,,,FCEV5,FCEV,Tangkak,,,,,,
+,,,,FCEV6,FCEV,Tangkak,,,,,,
+,,,,FCEV7,FCEV,Segamat District,,,,,,
+,,,,FCEV8,FCEV,Segamat District,,,,,,
+,,,,FCEV9,FCEV,Segamat District,,,,,,
+,,,,FCEV10,FCEV,Segamat District,,,,,,
+,,,,FCEV11,FCEV,Skudai,,,,,,
+,,,,FCEV12,FCEV,Skudai,,,,,,
+,,,,FCEV13,FCEV,Skudai,,,,,,
+,,,,FCEV14,FCEV,Pasir Gudang,,,,,,
+,,,,FCEV15,FCEV,Pasir Gudang,,,,,,
+,,,,FCEV16,FCEV,Pasir Gudang,,,,,,
+,,,,FCEV17,FCEV,Iskander Puteri,,,,,,
+,,,,FCEV18,FCEV,Iskander Puteri,,,,,,
+,,,,FCEV19,FCEV,Iskander Puteri,,,,,,
+,,,,FCEV20,FCEV,Iskander Puteri,,,,,,
+,,,,TK1,POME,POM1,,,,,,
+,,,,TK2,POME,POM7,,,,,,
+,,,,TK3,POME,POM8,,,,,,
+,,,,TK4,POME,POM13,,,,,,
+,,,,TK5,POME,POM22,,,,,,
+,,,,TK6,BioH2,WWTP4,,,,,,
+,,,,TK7,BioH2,BSP1,,,,,,
+,,,,TK8,BioH2,BSP2,,,,,,
+,,,,TK9,BioH2,BHH1,,,,,,
+,,,,TK10,BioH2,BHH1,,,,,,
+,,,,TK11,Biomass,POM4,,,,,,
+,,,,TK12,Biomass,POM8,,,,,,
+,,,,TK13,Biomass,POM19,,,,,,
+,,,,TK14,Biomass,BHH1,,,,,,
+,,,,TK15,Biomass,BHH3,,,,,,
+,,,,TK16,Biogas,WWTP1,,,,,,
+,,,,TK17,Biogas,WWTP2,,,,,,
+,,,,TK18,Biogas,BSP1,,,,,,
+,,,,TK19,Biogas,BSP1,,,,,,
+,,,,TK20,Biogas,WWTP5,,,,,,
+,,,,TK21,99H2,DC,,,,,,
+,,,,TK22,99H2,BHH3,,,,,,
+,,,,TK23,99H2,BSP1,,,,,,
+,,,,TK24,99H2,DC,,,,,,
+,,,,TK25,99H2,BHH1,,,,,,
