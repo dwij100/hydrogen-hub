@@ -1,3 +1,9 @@
+## Acknowledgements and Open-Source Notice
+
+**Mathematical Modelling:** Hanin Izzeldin Abbas Khalil ([hanin.izzeldin@monash.edu](mailto:hanin.izzeldin@monash.edu)).
+
+**Open Source:** All remaining work is open source and may be freely used, adapted, and distributed in accordance with the applicable licence.
+
 # Hydrogen Hub — local Gurobi application
 
 This package runs the Hydrogen Hub configuration interface, FastAPI service,
@@ -7,9 +13,7 @@ persistent SQLite queue, one solver worker, and Gurobi behind one local address:
 http://localhost:8080
 ```
 
-It does **not** require Supabase, Lovable Cloud, a database migration, a
-service-role key, or a separate Python/Node installation. Docker owns the
-runtime. The only private file you supply is a full Gurobi licence.
+The only private file you supply is a full Gurobi licence.
 
 ## Windows quick start
 
